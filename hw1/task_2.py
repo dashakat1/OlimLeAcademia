@@ -1,7 +1,7 @@
 # запрашиваем у пользователя число от 1 до 999
 while True:
     number = input("Введите число от 1 до 999: ")
-    if 1 <= int(number) <= 999:
+    if number.isdigit() and 1 <= int(number) <= 999:
         break
 
 num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
